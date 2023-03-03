@@ -1,0 +1,20 @@
+//Mixins *Functions*
+.clear() {
+    &:before,
+    &:after {
+        display:                table;
+        content:                " ";
+    }
+    
+    &:after {
+        clear:                  both;
+    }
+}
+.transitions(@property, @delay) {
+    -webkit-transitions:    @property @delay, ease @delay;
+        -moz-transitions:   @property @delay, ease @delay;
+             transitions:   @property @delay, ease @delay;
+}
+    
+    
+    

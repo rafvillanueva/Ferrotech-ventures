@@ -1,0 +1,40 @@
+body{
+
+	margin: 0 ;
+
+}
+
+ul li ul li {
+	background:white;
+	display: block;
+}
+
+
+ul li:hover ul {
+
+	display: block;
+	opacity: 1;
+	
+}
+ul li ul li{
+	font-size: 15px; 
+	font-weight: bold;
+	font-family: oblique;
+	
+}
+ul li {
+
+	font-size: 15px; 
+	font-weight: bold;
+	font-family: oblique;
+}
+#nav {
+	background-color:rgb(118, 0, 0);
+	border-radius: 2px;
+
+
+}
+ul li a{
+	 
+	margin-left: 2px;
+}

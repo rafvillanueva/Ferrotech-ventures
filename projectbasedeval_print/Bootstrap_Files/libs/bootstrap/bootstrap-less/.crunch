@@ -1,0 +1,26 @@
+{
+	"files": {
+		"project.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../../css/project.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"base.less",
+				"mixins.less",
+				"navbar.less",
+				"variables.less"
+			]
+		}
+	}
+}

@@ -1,0 +1,27 @@
+header .icon{float:right;
+			margin:0 4px}
+
+.logo{background-color:black}
+.container2 h1{text-align:center}
+.contents{text-align:justify;
+		  padding: 40px 10px;
+		  font-size: 16px}
+
+
+.articleimage{text-align:center}
+.footer{background-color:black;
+	color:white;
+	padding: 20px;}
+	
+.footer a{color:white}
+.footer img{float:left;
+	
+		margin: 10px 20px}
+
+.article{text-align:justify}
+.body
+{
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
